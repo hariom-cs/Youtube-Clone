@@ -1,0 +1,14 @@
+*{
+    background-color: rgba(104, 94, 94, 0.954);
+}
+.nav-bar{
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-around;
+
+    padding: 2rem;
+    background-color: aliceblue;
+}
+.nav-bar>div{
+    border: 1px solid white;
+}
