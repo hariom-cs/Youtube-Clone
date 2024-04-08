@@ -1,14 +1,22 @@
 *{
-    background-color: rgba(104, 94, 94, 0.954);
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
 }
-.nav-bar{
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
     display: flex;
-    border: 1px solid white;
-    justify-content: space-around;
-
-    padding: 2rem;
-    background-color: aliceblue;
+    align-items: center;   
 }
-.nav-bar>div{
-    border: 1px solid white;
+
+nav{
+    padding: 10px, 2%;
+    justify-content: space-between;
 }
